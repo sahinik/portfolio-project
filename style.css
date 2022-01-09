@@ -1,8 +1,31 @@
+:root {
+  --branding-color: #b6d7eb;
+  --secondary-color: #dff2ff;
+  --default-font: "Outfit", sans-serif;
+  --secondary-font: "Cookie", cursive;
+}
+
 h2 {
-  font-family: "Cookie", cursive;
-  font-size: 40px;
+  font-family: var(--default-font);
+  font-size: 25px;
+  font-weight: bold;
 }
 
 h1 {
-  font-family: "Outfit", sans-serif;
+  font-family: var(--default-font);
+  font-size: 80px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 150px 0;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 30px;
+  color: white;
+  line-height: 27px;
+  padding: 15px 30px;
 }
